@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+* {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+    position: relative;
+    transition: 0.45s;
+}
+
+.container.active {
+    filter: blur(5px);
+    pointer-events: none;
+}
+
+.input-div {
+    width: 100%;
+    margin: auto;
+    padding: 15px 20px;
+    background: #C2B280;
+}
+
+.heading {
+    width: 200px;
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+.input-div .logo {
+    width: 150px;
+    margin: auto;
+    height: auto;
+    display: block;
+}
+
+.input-div .roll {
+    width: 200px;
+    display: block;
+    margin: 10px auto 5px;
+    padding: 5px;
+    outline: none;
+}
+
+.input-div .justify-div {
+    width: 200px;
+    margin: auto;
+}
+
+.input-div .justify-div .sum-res {
+    width: 30px;
+    padding: 2px;
+    outline: none;
+}
+
+.input-div .search-div {
+    width: 200px;
+    margin: 8px auto 0;
+}
+
+.input-div .search-div button {
+    padding: 5px;
+    border: none;
+    outline: none;
+    background: Green;
+    font-weight: 600;
+    color: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+
+/* Notification Div */
+
+.notification-div {
+    position: fixed;
+    top: 100px;
+    left: 1%;
+    right: 1%;
+    margin: auto;
+    width: 310px;
+    padding: 10px;
+    border-radius: 5px;
+    background: #fff;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.notification-div.active {
+    top: 25%;
+    visibility: visible;
+    opacity: 1;
+}
+
+.notification-div p {
+    font-weight: 500;
+}
+
+.notification-div ul {
+    margin: 10px 0 0 20px;
+}
+
+.notification-div .close {
+    padding: 6px 12px;
+    border: none;
+    outline: none;
+    background: #483C32;
+    font-weight: 600;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+
+/* Result */
+
+.result-div {
+    width: 100%;
+    margin: auto;
+    background: #8A9A5B;
+    height: 58.5vh;
+}
+
+.result-div .content {
+    width: 314px;
+    margin: auto;
+    padding: 10px 15px;
+    color: #fff;
+}
+
+.content-style {
+    font-weight: 500;
+    margin-bottom: 3px;
+}
+
+.result-div .search-again-div {
+    width: 300px;
+    margin: 5px auto 0;
+    padding: 0 8px;
+}
+
+.refresh,
+.print {
+    display: none;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: #CD7F32;
+    font-weight: 600;
+    padding: 5px;
+    color: #fff;
+    border-radius: 3px;
+}
+
+.time {
+    text-align: center;
+    font-size: 0.75rem;
+    font-weight: 600;
+    margin-top: 16px;
+    color: #fff;
+}
+
+.footer {}
+
+.footer-head {
+    width: 100%;
+    padding: 10px 15px;
+    background: #343434;
+}
+
+.icons {
+    width: 70px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icons a {
+    color: grey;
+    transition: 0.5s;
+    transition-delay: 0.2s;
+}
+
+.icons a:hover:nth-child(1) {
+    color: #0096FF;
+}
+
+.icons a:hover:nth-child(2) {
+    color: red;
+}
+
+.icons .fa-facebook,
+.icons .fa-google-plus {
+    font-size: 1.8rem;
+}
+
+.footer-tail {
+    width: 100%;
+    padding: 10px 15px;
+    background: #000;
+}
+
+.footer-tail p {
+    color: #A9A9A9;
+    font-size: 0.8rem;
+    text-align: right;
+}
+
+.footer-tail p .owner {
+    color: #fff;
+    font-weight: 500;
+    margin-left: 3.5px;
+}
+
+@media screen and (max-width: 300px) {
+    .logo {
+        max-width: 100px;
+    }
+    .roll {
+        max-width: 120px;
+    }
+    .justify-div {
+        max-width: 120px;
+    }
+    .search-div {
+        max-width: 120px;
+    }
+}
