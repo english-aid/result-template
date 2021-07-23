@@ -9,7 +9,7 @@ var students = [{
     {
         name: 'Sadekun Nur Ashekin Orpa',
         college: 'Viqarunnisa Noon School and College',
-        roll: 'S105',
+        roll: 'S103',
         score: '',
         position: '',
         email: 'ashekinorpa@gmail.com'
