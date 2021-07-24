@@ -182,14 +182,14 @@ var students = [{
         position: '',
         email: 'mmsurayea272@gmail.com'
     },
-    // {
-    //     name: 'Akhter Ahsanul Azim',
-    //     college: '',
-    //     roll: '',
-    //     score: '',
-    //     position: '',
-    //     email: 'alifakhter507@gmail.com'
-    // },
+    {
+        name: 'Akhter Ahsanul Azim',
+        college: '',
+        roll: 'SH116',
+        score: '',
+        position: '',
+        email: 'alifakhter507@gmail.com'
+    },
     {
         name: 'Israt Zahan Ema',
         college: 'Ideal School and College',
