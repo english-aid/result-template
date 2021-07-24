@@ -104,7 +104,7 @@ var students = [{
     },
     {
         name: 'Farjana Akter Emu',
-        college: 'Rajuk uttara model college',
+        college: 'Rajuk Uttara Model College',
         roll: 'R104',
         score: '',
         position: '',
